@@ -70,6 +70,14 @@ zooming, cropping, panning, minor color changes
 
 <a name="text" />
 ## Text
+### stemmer
+#### sample implementations
+1. [nltk](http://www.nltk.org/_modules/nltk/stem/porter.html)
+
+#### use cases
+1. [Q&A With Job Salary Prediction First Prize Winner Vlad Mnih](http://blog.kaggle.com/2013/05/06/qa-with-job-salary-prediction-first-prize-winner-vlad-mnih/)
+
+
 ### tf-idf
 #### sample implementations
 1. [sklearn](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
@@ -92,12 +100,25 @@ zooming, cropping, panning, minor color changes
 
 #### use cases
 1. [Is That a Duplicate Quora Question?](https://www.linkedin.com/pulse/duplicate-quora-question-abhishek-thakur)
-2. text classification 
+2. [Do-it-yourself NLP for bot developers](https://conversations.golastmile.com/do-it-yourself-nlp-for-bot-developers-2e2da2817f3d#.9yz22bhzp) (text classification, entity recognition)
+
+#### pipeline
+* [Document Classification with scikit-learn](http://zacstewart.com/2015/04/28/document-classification-with-scikit-learn.html)
+* use separate bags of words for different attributes of text
 
 <a name="general" />
 ## General
+#### general feature engineering
+* [特征工程到底是什么？(in Chinese)](https://www.zhihu.com/question/29316149)
+![input](https://pic3.zhimg.com/20e4522e6104ad71fc543cc21f402b36_b.png)
+
 ### feature engieering pipelines
 * [Tips & Tricks for Feature Engineering / Applied Machine Learning](https://www.slideshare.net/HJvanVeen/feature-engineering-72376750)
+* represent categorical features using 1-of-K encoding
+
+### data exploration with Pandas
+* [Data Wrangling with Pandas](http://nbviewer.jupyter.org/urls/gist.github.com/fonnesbeck/5850413/raw/3a9406c73365480bc58d5e75bc80f7962243ba17/2.+Data+Wrangling+with+Pandas.ipynb)
+* [A Rubric for Data Wrangling and Exploration](http://nbviewer.jupyter.org/github/cs109/content/blob/master/lec_04_wrangling.ipynb)
 
 ### feed data to model
 1. [Is That a Duplicate Quora Question?](https://www.linkedin.com/pulse/duplicate-quora-question-abhishek-thakur)
