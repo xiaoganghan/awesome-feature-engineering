@@ -108,9 +108,14 @@ zooming, cropping, panning, minor color changes
 
 <a name="general" />
 ## General
+
 #### general feature engineering
+
 * [特征工程到底是什么？(in Chinese)](https://www.zhihu.com/question/29316149)
+
 ![input](https://pic3.zhimg.com/20e4522e6104ad71fc543cc21f402b36_b.png)
+
+* [Image augmentation for machine learning experiments.](https://github.com/aleju/imgaug)
 
 ### feature engieering pipelines
 * [Tips & Tricks for Feature Engineering / Applied Machine Learning](https://www.slideshare.net/HJvanVeen/feature-engineering-72376750)
