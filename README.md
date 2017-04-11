@@ -11,6 +11,7 @@ A curated list of feature engineering techniques for image and text machine lear
 
 
 <a name="image" />
+
 ## Image
 
 ### brightness, contrast, saturation
@@ -67,8 +68,13 @@ A curated list of feature engineering techniques for image and text machine lear
 ### others
 zooming, cropping, panning, minor color changes
 
+### Libraries
+* [imgaug: Image augmentation for machine learning experiments.](https://github.com/aleju/imgaug)
+
+![output](https://github.com/aleju/imgaug/raw/master/examples_grid.jpg?raw=true)
 
 <a name="text" />
+
 ## Text
 ### stemmer
 #### sample implementations
